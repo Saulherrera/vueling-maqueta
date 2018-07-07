@@ -1,0 +1,411 @@
+/*fuentes
+font-family: 'Encode Sans Semi Expanded', sans-serif;
+*/
+/*Reset*/
+body, body * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+.generales header {
+    text-align: center;
+    background: #FFFFFF;
+    width: 100%;
+}
+
+.generales header img {
+    width: 160px;
+    padding: 10px;
+}
+
+/*
+TODO separar las dos cajas con posicion relativa/absoluta o lo que coño sea
+*/
+.generales .pictograma { /*amarillo*/
+    background: url("../img/pattern.gif");
+    position: absolute;
+    width: 100%;
+    padding-top: 60px;
+}
+
+.generales .pictograma main { /*blanco*/
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 0 4.5em 8.5em 4.5em;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+
+.generales .pictograma main .step1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.generales .pictograma main .step1 img {
+    width: 80%;
+}
+
+.generales .pictograma main .step1 h1 {
+
+    font-size: 46px;
+    font-weight: bold;
+    margin: -197px 0 15px 0px;
+
+}
+
+.generales .pictograma main .step1 h1 span {
+    display: block;
+
+}
+
+.generales .pictograma main .step1 h3 {
+    margin: 54px 0 25px 0;
+    font-size: 22px;
+}
+
+.generales .pictograma main .step2 {
+    display: inline-block;
+    margin: 28px 10px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.generales .pictograma main .step2 .box1,
+.generales .pictograma main .step2 .box2 {
+    max-width: 300px;
+    float: left;
+
+}
+
+.generales .pictograma main .step2 .box3 {
+    max-width: 300px;
+    float: right;
+}
+
+.generales .pictograma main .step2 .box2 {
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.generales .pictograma main .step2 .box1 img,
+.generales .pictograma main .step2 .box2 img,
+.generales .pictograma main .step2 .box3 img {
+    max-width: 300px;
+    width: 100%;
+
+}
+
+.generales .step2 .box1 button,
+.generales .step2 .box2 button,
+.generales .step2 .box3 button {
+    background: rgba(255, 204, 0, 0.5);
+    width: 100%;
+    height: 58px;
+    border-radius: 20px;
+    margin: 10px 0;
+    border-top-width: 5px;
+    border-left-width: 5px;
+    border-top-color: #FF9800;
+    border-left-color: #FF9801;
+}
+
+.clear {
+    clear: both;
+}
+
+.generales .pictograma main .step3 {
+    text-align: center;
+}
+
+.generales .pictograma main .step3 h2 {
+    display: block;
+    margin-bottom: 50px
+}
+
+.generales .pictograma main .step3 span {
+    display: block;
+}
+
+.generales .pictograma main .step4 {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.generales .pictograma main .step4 input {
+    width: 280px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background: #ede7e7;
+    font-size: 18px;
+    text-align: center;
+    border-color: rgb(255, 255, 255);
+    outline: 0 none;
+
+}
+
+.generales .pictograma main .step5 {
+    text-align: center;
+    display: block;
+}
+
+.generales .pictograma main .step5 button {
+    display: block;
+    background: rgba(255, 204, 0, 0.5);
+    width: 150px;
+    height: 58px;
+    border-radius: 20px;
+    margin: 15px auto;
+    border-top-width: 5px;
+    border-left-width: 5px;
+    border-top-color: #FF9800;
+    border-left-color: #FF9801;
+
+}
+
+/*1350*/
+@media only screen and (max-width: 1350px) {
+    .generales .pictograma main {
+        max-width: 1066px;
+    }
+
+    .generales .pictograma main .step1 img {
+        width: 85%;
+
+    }
+
+    .generales .pictograma main .step1 h1 {
+        font-size: 41px;
+        margin: -197px 0 15px 0px;
+
+    }
+
+    .generales .pictograma main .step2 .box3,
+    .generales .pictograma main .step2 .box2,
+    .generales .pictograma main .step2 .box1 {
+        max-width: 286px;
+    }
+
+    .generales .pictograma main .step2 .box2 {
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+}
+
+/*1225*/
+@media only screen and (max-width: 1225px) {
+    .generales .pictograma main {
+        max-width: 947px;
+    }
+
+    .generales .pictograma main .step1 img {
+        width: 90%;
+
+    }
+
+    .generales .pictograma main .step1 h1 {
+        font-size: 37px;
+        margin: -180px 0 15px 0px;
+
+    }
+
+    .generales .pictograma main .step2 .box3,
+    .generales .pictograma main .step2 .box2,
+    .generales .pictograma main .step2 .box1 {
+        max-width: 260px;
+    }
+
+    .generales .pictograma main .step2 .box2 {
+        margin-left: 73px;
+        margin-right: 73px;
+    }
+}
+
+/*1100*/
+@media only screen and (max-width: 1100px) {
+    .generales .pictograma main {
+        max-width: 847px;
+    }
+
+    .generales .pictograma main .step1 img {
+        width: 93%;
+
+    }
+
+    .generales .pictograma main .step1 h1 {
+        font-size: 33px;
+        margin: -173px 0 15px 0px;
+
+    }
+
+    .generales .pictograma main .step2 .box3,
+    .generales .pictograma main .step2 .box2,
+    .generales .pictograma main .step2 .box1 {
+        max-width: 234px;
+    }
+
+    .generales .pictograma main .step2 .box2 {
+        margin-left: 62px;
+        margin-right: 62px;
+    }
+}
+
+/*1000*/
+@media only screen and (max-width: 1000px) {
+    .generales .pictograma main {
+        max-width: 747px;
+    }
+
+    .generales .pictograma main .step1 img {
+        width: 98%;
+
+    }
+
+    .generales .pictograma main .step1 h1 {
+        font-size: 32px;
+        margin: -161px 0 15px 0px;
+
+    }
+
+    .generales .pictograma main .step2 .box3,
+    .generales .pictograma main .step2 .box2,
+    .generales .pictograma main .step2 .box1 {
+        max-width: 208px;
+    }
+
+    .generales .pictograma main .step2 .box2 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+/*900*/
+@media only screen and (max-width: 900px) {
+    .generales .pictograma main {
+        max-width: 647px;
+    }
+
+    .generales .pictograma main .step1 img {
+        width: 99%;
+
+    }
+
+    .generales .pictograma {
+        padding-top: 30px;
+    }
+
+    .generales .pictograma main .step1 h1 {
+        font-size: 31px;
+        margin: -144px 0 15px 0px;
+    }
+
+    .generales .pictograma main .step2 .box3,
+    .generales .pictograma main .step2 .box2,
+    .generales .pictograma main .step2 .box1 {
+        max-width: 190px;
+    }
+
+    .generales .pictograma main .step2 .box2 {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+/*800*/
+@media only screen and (max-width: 800px) {
+    .generales .pictograma main {
+        max-width: 647px;
+        padding: 0;
+    }
+
+    .generales .pictograma {
+        padding-top: 10px;
+    }
+
+    .generales .pictograma main .step1 img {
+        width: 77%;
+
+    }
+
+    .generales .pictograma main .step1 h1 {
+        font-size: 24px;
+        margin: -112px 0 15px 0px;
+
+    }
+
+    .generales .pictograma main .step1 h3 {
+        margin: 10px 0 5px 0;
+        font-size: 22px;
+    }
+
+    .generales .pictograma main .step2 {
+        width: 510px;
+        margin: 0px auto 25px auto;
+        display: block;
+    }
+
+    .generales .pictograma main .step2 .box3,
+    .generales .pictograma main .step2 .box2,
+    .generales .pictograma main .step2 .box1 {
+        max-width: 800px;
+        width: 100%;
+        clear: both;
+    }
+
+    .generales .pictograma main .step2 .box2 {
+        margin: 25px 0 25px 0;
+    }
+}
+
+/*510*/
+
+@media only screen and (max-width: 550px) {
+
+    .generales .pictograma main .step1 img {
+        width: 99%;
+
+    }
+
+    .generales .pictograma main .step1,
+    .generales .pictograma main .step2 {
+        width: 90%;
+    }
+
+    .generales .pictograma main .step1 {
+        margin: 0 auto;
+    }
+
+    .generales .pictograma main .step1 h2,
+    .generales .pictograma main .step1 h1 {
+        font-size: 1.3rem;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .generales .pictograma main .step1 h1 {
+        margin: -94px 0 15px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+
+    .generales .pictograma main .step1 h1 {
+
+        margin: -83px 0 15px 0px;
+    }
+
+}

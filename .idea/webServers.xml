@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e6d84cfc-d683-4bd1-8ad5-e18a700c18a0" name="vueling" url="http://practicas.gestor-energetico.com">
+        <fileTransfer host="practicas.gestor-energetico.com" port="6969" rootFolder="/home/practicasge" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="6969" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
